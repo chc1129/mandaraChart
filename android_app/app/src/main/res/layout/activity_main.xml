@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="3"
+    tools:context="com.example.chc.mandarachart.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="MandaraChart"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/mndChr5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/frame_style_center"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/mndChr1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/frame_style_around"
+        android:textSize="20sp"
+        android:layout_above="@id/mndChr5"
+        android:layout_toLeftOf="@id/mndChr5"
+        android:gravity="left|top"
+        />
+
+    <EditText
+        android:id="@+id/mndChr2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/frame_style_around"
+        android:textSize="20sp"
+        android:layout_above="@id/mndChr5"
+        android:layout_centerInParent="true"
+        android:gravity="left|top"
+        />
+
+    <EditText
+        android:id="@+id/mndChr3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/frame_style_around"
+        android:textSize="20sp"
+        android:layout_above="@id/mndChr5"
+        android:layout_toRightOf="@id/mndChr5"
+        android:gravity="left|top"
+        />
+
+    <EditText
+        android:id="@+id/mndChr4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/frame_style_around"
+        android:textSize="20sp"
+        android:layout_alignTop="@id/mndChr5"
+        android:layout_toLeftOf="@id/mndChr5"
+        android:gravity="left|top"
+        />
+
+
+    <EditText
+        android:id="@+id/mndChr6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/frame_style_around"
+        android:textSize="20sp"
+        android:layout_alignTop="@id/mndChr5"
+        android:layout_toRightOf="@id/mndChr5"
+        android:gravity="left|top"
+        />
+
+    <EditText
+        android:id="@+id/mndChr7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/frame_style_around"
+        android:textSize="20sp"
+        android:layout_below="@id/mndChr5"
+        android:layout_toLeftOf="@id/mndChr5"
+        android:gravity="left|top"
+        />
+
+    <EditText
+        android:id="@+id/mndChr8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/frame_style_around"
+        android:textSize="20sp"
+        android:layout_below="@id/mndChr5"
+        android:layout_centerInParent="true"
+        android:gravity="left|top"
+        />
+
+    <EditText
+        android:id="@+id/mndChr9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/frame_style_around"
+        android:textSize="20sp"
+        android:layout_below="@id/mndChr5"
+        android:layout_toRightOf="@id/mndChr5"
+        android:gravity="left|top"
+        />
+
+</RelativeLayout>
